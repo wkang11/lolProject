@@ -1,0 +1,28 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "Documentation:",
+  "main": "routes.js",
+  "dependencies": {
+    "grunt": "^1.0.1",
+    "superagent-cache": "^1.6.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "superagent-cache": "^1.6.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wkang11/lolProject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wkang11/lolProject/issues"
+  },
+  "homepage": "https://github.com/wkang11/lolProject#readme"
+}
