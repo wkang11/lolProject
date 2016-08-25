@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Launch",
+            "name": "Launch ./bin/www",
             "type": "node",
             "request": "launch",
-            "program": "${workspaceRoot}/routes.js",
+            "program": "${workspaceRoot}/bin/www",
             "stopOnEntry": false,
             "args": [],
             "cwd": "${workspaceRoot}",
