@@ -49,7 +49,7 @@
 
               <!-- Summoner Icon, Soloq Ranking Information -->
               <div class="col-md-3">
-                <img class="summoner-icon-image" ng-src="http://ddragon.leagueoflegends.com/cdn/6.4.2/img/profileicon/{{summoner.iconId}}.png">
+                <img class="summoner-icon-image" ng-src="http://ddragon.leagueoflegends.com/cdn/6.17.1/img/profileicon/{{summoner.iconId}}.png">
                 <!-- The summoners soloq ranking; if exists show it, if not show "Unranked" -->
                 <div ng-show="doesRankingExist">
                   <p class="division-rankings">{{rankingsoloq.tier}} {{rankingsoloq.division}}</p>
@@ -73,18 +73,6 @@
             </div>
           </div>
 
-          <!-- If the summoner doesn't exist show "404" page-->
-          <div class="row">
-            <div class="container">
-              <div class="summoner-404-heading">
-                <h2>{{summoner.name}} <span class="not-found-summoner-text">Not found!</span></h2>
-                <p>Please make sure the summoner exists and is the correct spelling!</p>
-              </div>
-            </div>
-          </div>
-
-
-        </div> <!-- Jumbotron -->
 
         <!-- Here the match history can go and other stats check the grey page to see design -->
         <!-- Maybe   -->
